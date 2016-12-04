@@ -7,6 +7,7 @@
 ## Below are a pair of functions that are used to create a special object that 
 ## stores a matrix and caches its inverse.
 
+
 makeCacheMatrix <- function(x = matrix()) {
 ## set the value of inverse matrix to NULL
          inver <- NULL
